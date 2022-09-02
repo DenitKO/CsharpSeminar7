@@ -40,7 +40,7 @@ void FindDigit(int[,] array, int digit)
                 Console.WriteLine($"Ваше число находится в массиве на месте array[{i},{j}]");
                 return;
             }
-            else if (i == (array.GetLength(0)-1) & j == (array.GetLength(1)-1)) Console.WriteLine("Такого числа нет в массиве");
+            else if (i == (array.GetLength(0) - 1) & j == (array.GetLength(1) - 1)) Console.WriteLine("Такого числа нет в массиве");
         }
     }
 }
